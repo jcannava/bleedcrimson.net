@@ -1,0 +1,33 @@
+Index: memcache.php
+===================================================================
+--- memcache.php	(revision 190)
++++ memcache.php	(working copy)
+@@ -153,9 +153,9 @@
+     // Lock once by trying to add lock file, if we can't get the lock, we will loop
+     // for 3 seconds attempting to get lock.  If we still can't get it at that point,
+     // then we give up and return FALSE.
+-    if ($this->memcache->add($this->lock, $this->settings['compress'], 0) === FALSE) {
++    if ($this->memcache->add($this->lock, 0, $this->settings['compress'], 10) === FALSE) {
+       $time = time();
+-      while ($this->memcache->add($this->lock, $this->settings['compress'], 0) === FALSE) {
++      while ($this->memcache->add($this->lock, 0, $this->settings['compress'], 10) === FALSE) {
+         if (time() - $time >= 3) {
+           return FALSE;
+         }
+@@ -165,7 +165,7 @@
+   }
+   
+   function unlock() {
+-    return $this->memcache->delete($this->lock);
++    return $this->memcache->delete($this->lock, 0);
+   }
+   
+   function connect() {
+@@ -181,4 +181,4 @@
+   function close() {
+     $this->memcache->close();
+   }
+-}
+\ No newline at end of file
++}
+

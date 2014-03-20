@@ -1,0 +1,1853 @@
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] 
+
+--------------------------------------------------------
+	Upgrade Plugins
+--------------------------------------------------------
+
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter id.adminGroup for core plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'core'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	SELECT
+	  g2_UserGroupMap.g_userId,
+	  g2_User.g_userName
+	FROM
+	  g2_UserGroupMap, g2_User
+	WHERE
+	  g2_UserGroupMap.g_groupId = 3
+	  AND
+	  g2_UserGroupMap.g_userId = g2_User.g_id
+	
+	ORDER BY
+	  g2_User.g_userName
+	 LIMIT 1 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SELECT g_id, g_entityType FROM g2_Entity WHERE g_id IN (6) &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	    SELECT
+	      g2_PluginMap.g_pluginId,
+	      g2_PluginMap.g_active
+	    FROM
+	      g2_PluginMap
+	    WHERE
+	      g2_PluginMap.g_pluginType = 'module'
+	     &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] opendir(/var/www/bleedcrimson.net/photos/modules/)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/imageframe)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/imageframe/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for imageframe plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'imageframe'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for imageframe plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for imageframe plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for imageframe plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/icons)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/icons/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for icons plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'icons'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for icons plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for icons plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for icons plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/rearrange)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/rearrange/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for rearrange plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'rearrange'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for rearrange plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for rearrange plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for rearrange plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/rating)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/rating/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for rating plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'rating'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for rating plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for rating plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for rating plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/keyalbum)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/keyalbum/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for keyalbum plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'keyalbum'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for keyalbum plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for keyalbum plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for keyalbum plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/slideshow)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/slideshow/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for slideshow plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'slideshow'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for slideshow plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for slideshow plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for slideshow plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/comment)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/comment/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'comment'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/imageblock)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/imageblock/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for imageblock plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'imageblock'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for imageblock plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for imageblock plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for imageblock plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/migrate)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/migrate/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for migrate plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'migrate'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for migrate plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for migrate plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for migrate plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/gd)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/gd/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for gd plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'gd'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for gd plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for gd plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for gd plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/exif)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/exif/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for exif plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'exif'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for exif plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for exif plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for exif plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/ffmpeg)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/ffmpeg/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for ffmpeg plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'ffmpeg'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for ffmpeg plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for ffmpeg plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for ffmpeg plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/archiveupload)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/archiveupload/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for archiveupload plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'archiveupload'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for archiveupload plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for archiveupload plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for archiveupload plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/shutterfly)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/shutterfly/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for shutterfly plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'shutterfly'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for shutterfly plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for shutterfly plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for shutterfly plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/search)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/search/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for search plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'search'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for search plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for search plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for search plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/imagemagick)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/imagemagick/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for imagemagick plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'imagemagick'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for imagemagick plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for imagemagick plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for imagemagick plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/core)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/core/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for core plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for core plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for core plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for core plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/netpbm)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/netpbm/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for netpbm plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'netpbm'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for netpbm plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for netpbm plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for netpbm plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/rewrite)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/rewrite/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for rewrite plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'rewrite'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for rewrite plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for rewrite plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for rewrite plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] closedir(Resource id #50)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin albumselect no longer installed
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin members no longer installed
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin register no longer installed
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SELECT g2_User.g_userName, g2_User.g_fullName, g2_User.g_hashedPassword, g2_User.g_email, g2_User.g_language, g2_User.g_locked, g2_Entity.g_id, g2_Entity.g_creationTimestamp, g2_Entity.g_isLinkable, g2_Entity.g_linkId, g2_Entity.g_modificationTimestamp, g2_Entity.g_serialNumber, g2_Entity.g_entityType, g2_Entity.g_onLoadHandlers FROM g2_User, g2_Entity WHERE g2_User.g_id IN (6) AND g2_Entity.g_id=g2_User.g_id &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Loading plugin comment
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Class not defined, trying to include it.
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/comment/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] comment plugin successfully instantiated
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] GalleryModule::installOrUpgrade comment module
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Old version: 0.9.7   New version: 1.1.3.1
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Configure store for comment module
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SET AUTOCOMMIT=0 &nbsp; 
+<hr />
+<hr />
+(mysqli): BEGIN &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/comment/classes/GalleryStorage/schema.tpl)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file(/var/www/bleedcrimson.net/photos/modules/comment/classes/GalleryStorage/schema.tpl, )
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SHOW TABLES &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SELECT g_name, g_major, g_minor FROM g2_Schema &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/comment/classes/Maps.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/comment/classes/Entities.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Upgrade (or install) comment module
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/comment/classes/GalleryStorage/schema.tpl)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file(/var/www/bleedcrimson.net/photos/modules/comment/classes/GalleryStorage/schema.tpl, )
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SHOW TABLES &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SELECT g_name, g_major, g_minor FROM g2_Schema &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/comment/classes/Maps.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/comment/classes/Entities.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): ALTER TABLE g2_Comment
+  DROP INDEX g_date,
+  ADD INDEX g2_Comment_95610(g_date) &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): UPDATE g2_Schema
+  SET g_major=1, g_minor=1
+  WHERE g_name='Comment' AND g_major=1 AND g_minor=0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): UPDATE g2_Schema SET g_createSql = 'CREATE TABLE DB_TABLE_PREFIXComment(\n DB_COLUMN_PREFIXid int(11) NOT NULL,\n DB_COLUMN_PREFIXcommenterId int(11) NOT NULL,\n DB_COLUMN_PREFIXhost varchar(128) NOT NULL,\n DB_COLUMN_PREFIXsubject varchar(128),\n DB_COLUMN_PREFIXcomment text,\n DB_COLUMN_PREFIXdate int(11) NOT NULL,\n DB_COLUMN_PREFIXauthor varchar(128),\n PRIMARY KEY(DB_COLUMN_PREFIXid),\n INDEX DB_TABLE_PREFIXComment_95610(DB_COLUMN_PREFIXdate)\n) DB_TABLE_TYPE\n/*!40100 DEFAULT CHARACTER SET utf8 */;\n\nINSERT INTO DB_TABLE_PREFIXSchema (\n DB_COLUMN_PREFIXname,\n DB_COLUMN_PREFIXmajor,\n DB_COLUMN_PREFIXminor\n) VALUES(\'Comment\', 1, 2);\n\n', g_pluginId = 'comment', g_type = 'entity', g_info = 'a:1:{s:14:\&quot;GalleryComment\&quot;;a:4:{s:7:\&quot;members\&quot;;a:6:{s:11:\&quot;commenterId\&quot;;a:3:{s:4:\&quot;type\&quot;;i:1;s:4:\&quot;size\&quot;;i:4;s:7:\&quot;notNull\&quot;;i:1;}s:4:\&quot;host\&quot;;a:3:{s:4:\&quot;type\&quot;;i:2;s:4:\&quot;size\&quot;;i:2;s:7:\&quot;notNull\&quot;;i:1;}s:7:\&quot;subject\&quot;;a:3:{s:4:\&quot;type\&quot;;i:2;s:4:\&quot;size\&quot;;i:2;s:15:\&quot;external-access\&quot;;i:3;}s:7:\&quot;comment\&quot;;a:3:{s:4:\&quot;type\&quot;;i:4;s:4:\&quot;size\&quot;;i:1;s:15:\&quot;external-access\&quot;;i:3;}s:4:\&quot;date\&quot;;a:3:{s:4:\&quot;type\&quot;;i:1;s:7:\&quot;notNull\&quot;;i:1;s:15:\&quot;external-access\&quot;;i:1;}s:6:\&quot;author\&quot;;a:3:{s:4:\&quot;type\&quot;;i:2;s:4:\&quot;size\&quot;;i:2;s:15:\&quot;external-access\&quot;;i:3;}}s:6:\&quot;parent\&quot;;s:18:\&quot;GalleryChildEntity\&quot;;s:6:\&quot;module\&quot;;s:7:\&quot;comment\&quot;;s:6:\&quot;linked\&quot;;a:0:{}}}' WHERE g_name = 'Comment' &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SELECT g_name, g_major, g_minor FROM g2_Schema &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] setParameter comments.show for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'comment'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	    SELECT
+	      g2_PluginMap.g_pluginId,
+	      g2_PluginMap.g_active
+	    FROM
+	      g2_PluginMap
+	    WHERE
+	      g2_PluginMap.g_pluginType = 'module'
+	     &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] opendir(/var/www/bleedcrimson.net/photos/modules/)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/imageframe)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/imageframe/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for imageframe plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'imageframe'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for imageframe plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for imageframe plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for imageframe plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/icons)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/icons/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for icons plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'icons'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for icons plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for icons plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for icons plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/rearrange)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/rearrange/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for rearrange plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'rearrange'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for rearrange plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for rearrange plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for rearrange plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/rating)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/rating/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for rating plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'rating'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for rating plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for rating plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for rating plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/keyalbum)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/keyalbum/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for keyalbum plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'keyalbum'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for keyalbum plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for keyalbum plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for keyalbum plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/slideshow)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/slideshow/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for slideshow plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'slideshow'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for slideshow plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for slideshow plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for slideshow plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/comment)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/comment/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/imageblock)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/imageblock/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for imageblock plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'imageblock'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for imageblock plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for imageblock plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for imageblock plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/migrate)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/migrate/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for migrate plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'migrate'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for migrate plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for migrate plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for migrate plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/gd)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/gd/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for gd plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'gd'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for gd plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for gd plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for gd plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/exif)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/exif/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for exif plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'exif'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for exif plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for exif plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for exif plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/ffmpeg)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/ffmpeg/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for ffmpeg plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'ffmpeg'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for ffmpeg plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for ffmpeg plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for ffmpeg plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/archiveupload)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/archiveupload/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for archiveupload plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'archiveupload'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for archiveupload plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for archiveupload plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for archiveupload plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/shutterfly)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/shutterfly/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for shutterfly plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'shutterfly'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for shutterfly plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for shutterfly plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for shutterfly plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/search)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/search/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for search plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'search'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for search plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for search plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for search plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/imagemagick)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/imagemagick/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for imagemagick plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'imagemagick'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for imagemagick plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for imagemagick plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for imagemagick plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/core)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/core/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for core plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'core'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for core plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for core plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for core plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/netpbm)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/netpbm/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for netpbm plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'netpbm'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for netpbm plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for netpbm plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for netpbm plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/rewrite)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/rewrite/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for rewrite plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'rewrite'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for rewrite plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for rewrite plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for rewrite plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] closedir(Resource id #251)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin albumselect no longer installed
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin members no longer installed
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin register no longer installed
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): INSERT INTO g2_PluginParameterMap (g_pluginType, g_pluginId, g_itemId, g_parameterName, g_parameterValue) VALUES ('module','comment',0,'comments.show','10') &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin parameter comments.show for comment plugin set successfully
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] setParameter comments.captcha for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'comment'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): INSERT INTO g2_PluginParameterMap (g_pluginType, g_pluginId, g_itemId, g_parameterName, g_parameterValue) VALUES ('module','comment',0,'comments.captcha','0') &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin parameter comments.captcha for comment plugin set successfully
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] setParameter comments.latest for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'comment'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): INSERT INTO g2_PluginParameterMap (g_pluginType, g_pluginId, g_itemId, g_parameterName, g_parameterValue) VALUES ('module','comment',0,'comments.latest','1') &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin parameter comments.latest for comment plugin set successfully
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter comments.captcha for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'comment'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] setParameter validation.level for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): INSERT INTO g2_PluginParameterMap (g_pluginType, g_pluginId, g_itemId, g_parameterName, g_parameterValue) VALUES ('module','comment',0,'validation.level','OFF') &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin parameter validation.level for comment plugin set successfully
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): DELETE FROM g2_PluginParameterMap WHERE g_pluginType='module' AND g_pluginId='comment' AND g_itemId=0 AND g_parameterName='comments.captcha' &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/comment/classes/GalleryStorage/schema.tpl)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file(/var/www/bleedcrimson.net/photos/modules/comment/classes/GalleryStorage/schema.tpl, )
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SHOW TABLES &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SELECT g_name, g_major, g_minor FROM g2_Schema &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/comment/classes/Maps.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/comment/classes/Entities.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): ALTER TABLE g2_Comment
+  ADD COLUMN g_author varchar(128) &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): UPDATE g2_Schema
+  SET g_major=1, g_minor=2
+  WHERE g_name='Comment' AND g_major=1 AND g_minor=1 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): UPDATE g2_Schema SET g_createSql = 'CREATE TABLE DB_TABLE_PREFIXComment(\n DB_COLUMN_PREFIXid int(11) NOT NULL,\n DB_COLUMN_PREFIXcommenterId int(11) NOT NULL,\n DB_COLUMN_PREFIXhost varchar(128) NOT NULL,\n DB_COLUMN_PREFIXsubject varchar(128),\n DB_COLUMN_PREFIXcomment text,\n DB_COLUMN_PREFIXdate int(11) NOT NULL,\n DB_COLUMN_PREFIXauthor varchar(128),\n PRIMARY KEY(DB_COLUMN_PREFIXid),\n INDEX DB_TABLE_PREFIXComment_95610(DB_COLUMN_PREFIXdate)\n) DB_TABLE_TYPE\n/*!40100 DEFAULT CHARACTER SET utf8 */;\n\nINSERT INTO DB_TABLE_PREFIXSchema (\n DB_COLUMN_PREFIXname,\n DB_COLUMN_PREFIXmajor,\n DB_COLUMN_PREFIXminor\n) VALUES(\'Comment\', 1, 2);\n\n', g_pluginId = 'comment', g_type = 'entity', g_info = 'a:1:{s:14:\&quot;GalleryComment\&quot;;a:4:{s:7:\&quot;members\&quot;;a:6:{s:11:\&quot;commenterId\&quot;;a:3:{s:4:\&quot;type\&quot;;i:1;s:4:\&quot;size\&quot;;i:4;s:7:\&quot;notNull\&quot;;i:1;}s:4:\&quot;host\&quot;;a:3:{s:4:\&quot;type\&quot;;i:2;s:4:\&quot;size\&quot;;i:2;s:7:\&quot;notNull\&quot;;i:1;}s:7:\&quot;subject\&quot;;a:3:{s:4:\&quot;type\&quot;;i:2;s:4:\&quot;size\&quot;;i:2;s:15:\&quot;external-access\&quot;;i:3;}s:7:\&quot;comment\&quot;;a:3:{s:4:\&quot;type\&quot;;i:4;s:4:\&quot;size\&quot;;i:1;s:15:\&quot;external-access\&quot;;i:3;}s:4:\&quot;date\&quot;;a:3:{s:4:\&quot;type\&quot;;i:1;s:7:\&quot;notNull\&quot;;i:1;s:15:\&quot;external-access\&quot;;i:1;}s:6:\&quot;author\&quot;;a:3:{s:4:\&quot;type\&quot;;i:2;s:4:\&quot;size\&quot;;i:2;s:15:\&quot;external-access\&quot;;i:3;}}s:6:\&quot;parent\&quot;;s:18:\&quot;GalleryChildEntity\&quot;;s:6:\&quot;module\&quot;;s:7:\&quot;comment\&quot;;s:6:\&quot;linked\&quot;;a:0:{}}}' WHERE g_name = 'Comment' &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SELECT g_name, g_major, g_minor FROM g2_Schema &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Update module paramater for the comment module
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] setParameter _version for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'comment'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	    SELECT
+	      g2_PluginMap.g_pluginId,
+	      g2_PluginMap.g_active
+	    FROM
+	      g2_PluginMap
+	    WHERE
+	      g2_PluginMap.g_pluginType = 'module'
+	     &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] opendir(/var/www/bleedcrimson.net/photos/modules/)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/imageframe)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/imageframe/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for imageframe plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'imageframe'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for imageframe plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for imageframe plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for imageframe plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/icons)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/icons/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for icons plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'icons'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for icons plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for icons plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for icons plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/rearrange)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/rearrange/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for rearrange plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'rearrange'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for rearrange plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for rearrange plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for rearrange plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/rating)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/rating/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for rating plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'rating'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for rating plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for rating plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for rating plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/keyalbum)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/keyalbum/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for keyalbum plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'keyalbum'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for keyalbum plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for keyalbum plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for keyalbum plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/slideshow)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/slideshow/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for slideshow plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'slideshow'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for slideshow plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for slideshow plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for slideshow plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/comment)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/comment/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/imageblock)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/imageblock/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for imageblock plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'imageblock'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for imageblock plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for imageblock plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for imageblock plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/migrate)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/migrate/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for migrate plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'migrate'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for migrate plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for migrate plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for migrate plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/gd)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/gd/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for gd plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'gd'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for gd plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for gd plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for gd plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/exif)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/exif/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for exif plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'exif'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for exif plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for exif plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for exif plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/ffmpeg)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/ffmpeg/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for ffmpeg plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'ffmpeg'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for ffmpeg plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for ffmpeg plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for ffmpeg plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/archiveupload)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/archiveupload/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for archiveupload plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'archiveupload'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for archiveupload plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for archiveupload plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for archiveupload plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/shutterfly)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/shutterfly/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for shutterfly plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'shutterfly'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for shutterfly plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for shutterfly plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for shutterfly plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/search)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/search/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for search plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'search'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for search plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for search plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for search plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/imagemagick)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/imagemagick/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for imagemagick plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'imagemagick'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for imagemagick plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for imagemagick plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for imagemagick plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/core)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/core/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for core plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'core'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for core plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for core plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for core plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/netpbm)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/netpbm/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for netpbm plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'netpbm'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for netpbm plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for netpbm plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for netpbm plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] is_dir(/var/www/bleedcrimson.net/photos/modules/rewrite)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/rewrite/module.inc)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for rewrite plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'rewrite'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _callbacks for rewrite plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredCoreApi for rewrite plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _requiredModuleApi for rewrite plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] readdir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] closedir(Resource id #447)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin albumselect no longer installed
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin members no longer installed
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin register no longer installed
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): UPDATE g2_PluginParameterMap SET g_parameterValue='1.1.3.1' WHERE g_pluginType='module' AND g_pluginId='comment' AND g_itemId=0 AND g_parameterName='_version' &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin parameter _version for comment plugin set successfully
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] setParameter _callbacks for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'comment'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): UPDATE g2_PluginParameterMap SET g_parameterValue='registerEventListeners|getItemLinks|getItemSummaries|getSiteAdminViews|getItemAdminViews' WHERE g_pluginType='module' AND g_pluginId='comment' AND g_itemId=0 AND g_parameterName='_callbacks' &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin parameter _callbacks for comment plugin set successfully
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] setParameter _requiredCoreApi for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'comment'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): UPDATE g2_PluginParameterMap SET g_parameterValue='7,5' WHERE g_pluginType='module' AND g_pluginId='comment' AND g_itemId=0 AND g_parameterName='_requiredCoreApi' &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin parameter _requiredCoreApi for comment plugin set successfully
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] setParameter _requiredModuleApi for comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'comment'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): UPDATE g2_PluginParameterMap SET g_parameterValue='3,0' WHERE g_pluginType='module' AND g_pluginId='comment' AND g_itemId=0 AND g_parameterName='_requiredModuleApi' &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin parameter _requiredModuleApi for comment plugin set successfully
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] ConfigureStoreCleanup for comment module
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/comment/classes/GalleryStorage/schema.tpl)
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] file(/var/www/bleedcrimson.net/photos/modules/comment/classes/GalleryStorage/schema.tpl, )
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SHOW TABLES &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SELECT g_name, g_major, g_minor FROM g2_Schema &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] Reactivate comment module
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] GalleryPlugin::reactivate comment plugin
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] GalleryPlugin::reactivate comment plugin, plugin is not active, nothing to do
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): COMMIT &nbsp; 
+<hr />
+<hr />
+(mysqli): SET AUTOCOMMIT=1 &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SELECT g_name, g_major, g_minor FROM g2_Schema &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): OPTIMIZE TABLE `g2_Comment`; &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): OPTIMIZE TABLE `g2_Comment`; &nbsp; 
+<hr />
+
+2007-08-31 15:42:59 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): ANALYZE TABLE `g2_Comment`; &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): ANALYZE TABLE `g2_Comment`; &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Successfully finished installOrUpgrade comment module
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Loading plugin exif
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Class not defined, trying to include it.
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/exif/module.inc)
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] exif plugin successfully instantiated
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] GalleryModule::installOrUpgrade exif module
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for exif plugin
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Old version: 0.9.8   New version: 1.1.0
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Configure store for exif module
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SET AUTOCOMMIT=0 &nbsp; 
+<hr />
+<hr />
+(mysqli): BEGIN &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/exif/classes/GalleryStorage/schema.tpl)
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] file(/var/www/bleedcrimson.net/photos/modules/exif/classes/GalleryStorage/schema.tpl, )
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SHOW TABLES &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SELECT g_name, g_major, g_minor FROM g2_Schema &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/exif/classes/Maps.inc)
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/exif/classes/Entities.inc)
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Upgrade (or install) exif module
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Update module paramater for the exif module
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] setParameter _version for exif plugin
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): UPDATE g2_PluginParameterMap SET g_parameterValue='1.1.0' WHERE g_pluginType='module' AND g_pluginId='exif' AND g_itemId=0 AND g_parameterName='_version' &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin parameter _version for exif plugin set successfully
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] setParameter _callbacks for exif plugin
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'exif'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): UPDATE g2_PluginParameterMap SET g_parameterValue='getSiteAdminViews' WHERE g_pluginType='module' AND g_pluginId='exif' AND g_itemId=0 AND g_parameterName='_callbacks' &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin parameter _callbacks for exif plugin set successfully
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] setParameter _requiredCoreApi for exif plugin
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'exif'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): UPDATE g2_PluginParameterMap SET g_parameterValue='7,10' WHERE g_pluginType='module' AND g_pluginId='exif' AND g_itemId=0 AND g_parameterName='_requiredCoreApi' &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin parameter _requiredCoreApi for exif plugin set successfully
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] setParameter _requiredModuleApi for exif plugin
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): 
+	  SELECT
+	    g2_PluginParameterMap.g_itemId,
+	    g2_PluginParameterMap.g_parameterName,
+	    g2_PluginParameterMap.g_parameterValue
+	  FROM
+	    g2_PluginParameterMap
+	  WHERE
+	    g2_PluginParameterMap.g_pluginType = 'module'
+	    AND
+	    g2_PluginParameterMap.g_pluginId = 'exif'
+	    AND
+	    g2_PluginParameterMap.g_itemId = 0 &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): UPDATE g2_PluginParameterMap SET g_parameterValue='3,0' WHERE g_pluginType='module' AND g_pluginId='exif' AND g_itemId=0 AND g_parameterName='_requiredModuleApi' &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Plugin parameter _requiredModuleApi for exif plugin set successfully
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] ConfigureStoreCleanup for exif module
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/exif/classes/GalleryStorage/schema.tpl)
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] file(/var/www/bleedcrimson.net/photos/modules/exif/classes/GalleryStorage/schema.tpl, )
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SHOW TABLES &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SELECT g_name, g_major, g_minor FROM g2_Schema &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Reactivate exif module
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] GalleryPlugin::reactivate exif plugin
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] GalleryPlugin::reactivate exif plugin, plugin is not active, nothing to do
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Successfully finished installOrUpgrade exif module
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): COMMIT &nbsp; 
+<hr />
+<hr />
+(mysqli): SET AUTOCOMMIT=1 &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Loading plugin core
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Class not defined, trying to include it.
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/core/module.inc)
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] core plugin successfully instantiated
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] GalleryModule::installOrUpgrade core module
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] getParameter _version for core plugin
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Old version: 0.9.36   New version: 1.2.0.4
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Configure store for core module
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SET AUTOCOMMIT=0 &nbsp; 
+<hr />
+<hr />
+(mysqli): BEGIN &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/core/classes/GalleryStorage/schema.tpl)
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] file(/var/www/bleedcrimson.net/photos/modules/core/classes/GalleryStorage/schema.tpl, )
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SHOW TABLES &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SELECT g_name, g_major, g_minor FROM g2_Schema &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/core/classes/Maps.inc)
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/modules/core/classes/Entities.inc)
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Upgrade (or install) core module
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Entering CoreModuleExtras::upgrade
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] file_exists(/var/www/bleedcrimson.net/photos/g2data/versions.dat)
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] file(/var/www/bleedcrimson.net/photos/g2data/versions.dat, )
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] Old version: 1.2.0.4   New version: 1.2.0.4
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): SHOW CREATE TABLE `g2_Schema` &nbsp; 
+<hr />
+
+2007-08-31 15:43:00 [TMP_SESSION_ID_DI_NOISSES_PMT] <hr />
+(mysqli): ROLLBACK &nbsp; 
+<hr />
+<hr />
+(mysqli): SET AUTOCOMMIT=1 &nbsp; 
+<hr />
+

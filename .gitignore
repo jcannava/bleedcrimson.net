@@ -1,0 +1,8 @@
+sites/default/settings.php
+photos/g2data/cache/*
+.htaccess
+*.png
+*.mp3
+*.tar.gz
+*.zip
+*.cache

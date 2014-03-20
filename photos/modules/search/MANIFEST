@@ -1,0 +1,14 @@
+# $Revision: 20955 $
+# File crc32 crc32(crlf) size size(crlf)  or  R File
+modules/search/HighlightResults.js	4006435078	4091272109	950	976
+modules/search/Preloads.inc	3948442435	3221691792	1228	1267
+modules/search/SearchBlock.js	913187673	951060791	1250	1288
+modules/search/SearchScan.inc	2024959915	3191231219	7042	7287
+modules/search/SearchShowAll.inc	323583068	374648506	5683	5882
+modules/search/classes/GallerySearchInterface_1_0.class	4145141368	2437082884	3518	3596
+modules/search/classes/SearchUtilities.class	3351174632	364589243	1365	1409
+modules/search/module.inc	1379272007	1107389699	1485	1531
+modules/search/templates/SearchScan.tpl	1656210885	1147441560	4780	4922
+modules/search/templates/SearchShowAll.tpl	2371239017	1741635904	5249	5400
+modules/search/templates/blocks/SearchBlock.tpl	54064070	1066649265	1543	1581
+modules/search/templates/blocks/blocks.inc	2299246961	3622768294	258	267

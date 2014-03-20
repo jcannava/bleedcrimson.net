@@ -1,0 +1,8 @@
+# $Revision: 20961 $
+# File crc32 crc32(crlf) size size(crlf)  or  R File
+modules/gd/AdminGd.inc	1839393820	627984154	4577	4739
+modules/gd/classes/GdFunctionality.class	3137665894	1769807398	18276	18964
+modules/gd/classes/GdToolkit.class	1804338512	4274252388	28078	29011
+modules/gd/classes/GdToolkitHelper.class	1019565822	1150994411	13314	13707
+modules/gd/module.inc	1298862327	438107398	5058	5251
+modules/gd/templates/AdminGd.tpl	1729355198	4283859862	2666	2757

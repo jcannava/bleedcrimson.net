@@ -1,0 +1,4 @@
+name = Amadou
+description = Bleedcrimson.net theme
+core = 6.x
+engine = phptemplate

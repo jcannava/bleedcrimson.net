@@ -1,0 +1,10 @@
+# $Revision: 20955 $
+# File crc32 crc32(crlf) size size(crlf)  or  R File
+modules/ffmpeg/AdminFfmpeg.inc	3715822696	2306255066	10115	10458
+modules/ffmpeg/MovieThumbnailOption.inc	2364229510	2452325131	3229	3333
+modules/ffmpeg/classes/FfmpegToolkit.class	1016274519	1254120943	11662	12022
+modules/ffmpeg/classes/FfmpegToolkitHelper.class	4156238197	663087466	13181	13541
+modules/ffmpeg/images/filmreel.png	600755255	600755255	2134	2134
+modules/ffmpeg/images/sample.jpg	2241663216	2241663216	3163	3163
+modules/ffmpeg/module.inc	4236801824	372916401	8198	8496
+modules/ffmpeg/templates/AdminFfmpeg.tpl	2621829852	147152757	7386	7594

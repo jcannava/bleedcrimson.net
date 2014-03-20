@@ -1,0 +1,75 @@
+<?php
+
+/**
+ * @file
+ * Mobile Tools's install and uninstall code.
+ */
+
+/**
+ * Implementation of hook_install().
+ */
+function mobile_tools_install() {
+  // Assign Mobile Tools a heavy weight so it runs after other modules
+  db_query("UPDATE {system} SET weight = 50 WHERE name = 'mobile_tools'");
+}
+
+/**
+ * Implementation of hook_uninstall().
+ */
+function mobile_tools_uninstall() {
+  // Delete all Mobile Tools variables
+  variable_del('default_main_nodes_mobile');
+  variable_del('default_main_nodes_original');
+  variable_del('site_frontpage_mobile');
+  variable_del('mobile_tools_enable_build_mode');
+  variable_del('desktop_notification');
+  variable_del('mobile_notification');
+  variable_del('mobile_tools_redirect_exceptions');
+  variable_del('mobile_tools_redirect_exceptions_type');
+  variable_del('mobile_tools_cookie_session');
+  variable_del('mobile_tools_redirect');
+  variable_del('mobile_tools_desktop_url');
+  variable_del('mobile_tools_mobile_url');
+  variable_del('mobile-tools-theme-switch');
+  variable_del('mobile_tools_theme_name');
+  variable_del('mobile-tools-device-detection');
+  variable_del('mobile-tools-device-capabilities');
+}
+
+/**
+ * Delete the unused mobile_tools_cookie_lifetime variable.
+ */
+function mobile_tools_update_6201() {
+  $ret = array();
+  variable_del('mobile_tools_cookie_lifetime');
+  return $ret;
+}
+
+/**
+ * Update Mobile Tools' module weight.
+ */
+function mobile_tools_update_6202() {
+  $ret = array();
+  // Assign Mobile Tools a heavy weight so it runs after other modules
+  db_query("UPDATE {system} SET weight = 50 WHERE name = 'mobile_tools'");
+  return $ret;
+}
+
+/**
+ * Delete the unused mobile_tools_hide_address_bar variable.
+ */
+function mobile_tools_update_6203() {
+  $ret = array();
+  variable_del('mobile_tools_hide_address_bar');
+  return $ret;
+}
+
+/**
+ * Clear the site cache and rebuilt the menus.
+ */
+function mobile_tools_update_6204() {
+  $ret = array();
+  menu_rebuild();
+  menu_cache_clear_all();
+  return $ret;
+}
